@@ -108,6 +108,101 @@
 }
 
 /*-------------------------------------------------------------------------------------------------*/
+/*KODE TIL KUNDE NAVS DROPDOWN*/
+.kundecontainer {
+  display: inline-block;
+}
+
+.kundedropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #3a3a7e;
+  border-radius: 0.8rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  transform: translate(-10%, -65%);
+}
+
+.kundedropdownEN {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #3a3a7e;
+  border-radius: 0.8rem;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  transform: translate(-35%, -65%);
+}
+
+.kundedropdown a {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.kundedropdownEN a {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.kundecontainer:hover .kundedropdown {
+  display: flex;
+}
+
+.kundecontainer:hover .kundedropdownEN {
+  display: flex;
+}
+
+/*KODE TIL PRODUKT NAVS DROPDOWN*/
+.kontaktoscontainer {
+  display: inline-block;
+}
+
+.kontaktosdropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #3a3a7e;
+  border-radius: 0.8rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  transform: translate(0%, -65%);
+}
+
+.kontaktosdropdownEN {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #3a3a7e;
+  border-radius: 0.8rem;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  transform: translate(-15%, -65%);
+}
+
+.kontaktosdropdown a {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.kontaktdropdownEN a {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.kontaktoscontainer:hover .kontaktosdropdown {
+  display: flex;
+}
+
+.kontaktoscontainer:hover .kontaktosdropdownEN {
+  display: flex;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
 /*RESPONSIV DEL AF KODEN - LUKKER NAV LINKS OG ÅBNER DE TRE LINJER PÅ MOBILEN ELLER SLETTER DE TRE LINJER OG ÅBNER NAV LINKS PÅ COMPUTEREN*/
 @media only screen and (min-width: 1279px) {
   .burgermenu {
